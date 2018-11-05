@@ -15,9 +15,9 @@ public class DserlMain /*extends Application*/ {
 
 
     public static void main(String[] args) {
-        //DserlManager m = new DserlManager();
-        //m.SqlInsPlanets("root","root");
-        //m.testConnection("root","root");
+        DserlManager m = new DserlManager();
+        m.SqlInsPlanets("root","root");
+        m.testConnection("root","root");
         //launch(args);
     }
 
