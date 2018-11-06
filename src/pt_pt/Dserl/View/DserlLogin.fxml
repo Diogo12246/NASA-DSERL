@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" styleClass="background" stylesheets="@../styles/login.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt_pt.Dserl.View.DserLoginController">
+   <children>
+      <VBox alignment="CENTER" fillWidth="false" layoutX="307.0" layoutY="173.0" prefHeight="620.0" prefWidth="445.0" spacing="10.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="425.0" pickOnBounds="true" styleClass="logo" translateY="-35.0" />
+            <AnchorPane prefHeight="225.0" prefWidth="500.0">
+               <children>
+                  <AnchorPane layoutY="20.0" prefHeight="300.0" prefWidth="400.0" styleClass="box-login" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="13.0">
+                     <children>
+                        <TextField layoutX="14.0" layoutY="65.0" prefHeight="25.0" prefWidth="472.0" promptText="Username" styleClass="username" />
+                        <Label layoutX="207.0" layoutY="14.0" text="LOGIN" textFill="WHITE">
+                           <font>
+                              <Font name="Mass Effect Game 123" size="16.0" />
+                           </font></Label>
+                        <PasswordField layoutX="14.0" layoutY="104.0" prefHeight="35.0" prefWidth="472.0" promptText="Password" styleClass="password" />
+                        <Button layoutX="13.0" layoutY="165.0" mnemonicParsing="false" onAction="#Login" prefHeight="27.0" prefWidth="172.0" styleClass="loginbtn" text="Login" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="12.0" />
+                        <Button layoutX="314.0" layoutY="169.0" mnemonicParsing="false" onAction="#exitapp" prefHeight="25.0" prefWidth="172.0" styleClass="exitbtn" text="Exit" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Label prefHeight="17.0" prefWidth="499.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

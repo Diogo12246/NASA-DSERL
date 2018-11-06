@@ -2,15 +2,7 @@ package pt_pt.Dserl.Controller;
 
 
 
-import pt_pt.Dserl.Model.Astronomical.Planet;
-import pt_pt.Dserl.Model.Astronomical.Star;
-import pt_pt.Dserl.Model.Astronomical.StarSystem;
-
-
-
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.Comparator;
 
 
 public class DserlManager {
@@ -40,7 +32,7 @@ public class DserlManager {
         return state;
     }
 
-    public void SqlGetPlanets() {
+   /* public void SqlGetPlanets() {
         try{
             Connection myConn = DriverManager.getConnection(dbUrl,user,pass);
             System.out.println("Connection Successful.");
@@ -66,8 +58,9 @@ public class DserlManager {
             }
         }
 
-    }
+    } */
 
+   /*
     public void SqlInsPlanets(String user, String pass) {
         try{
             Connection myConn = DriverManager.getConnection(dbUrl,user,pass);
@@ -111,7 +104,7 @@ public class DserlManager {
         }
 
     }
-
+*/
 }
 
 
