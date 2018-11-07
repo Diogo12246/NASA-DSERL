@@ -14,9 +14,10 @@ import javafx.stage.StageStyle;
 
 public class DserlLogin extends Application {
 
-    public static Stage palco;
-    private Scene cena;
-    private AnchorPane pagina;
+    public static Stage stage;
+    private Scene scene;
+    private AnchorPane page;
+
 
     private Screen ecra = Screen.getPrimary();
     private Rectangle2D window = ecra.getVisualBounds();
@@ -29,9 +30,9 @@ public class DserlLogin extends Application {
     @Override
     public void start(final Stage stage){
         try {
-            palco = stage;
-            pagina = FXMLLoader.load(DserlLogin.class.getResource("../View/DserlLogin.fxml"));
-            cena = new Scene(pagina);
+            DserlLogin.stage = stage;
+            page = FXMLLoader.load(DserlLogin.class.getResource("../View/DserlLogin.fxml"));
+            scene = new Scene(page);
 
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setX(window.getMinX());
@@ -39,7 +40,7 @@ public class DserlLogin extends Application {
             stage.setWidth(window.getWidth());
             stage.setHeight(window.getHeight());
             stage.getIcons().addAll(new Image(DserlLogin.class.getResourceAsStream("../Resources/nasaLOGO.png")));
-            stage.setScene(cena);
+            stage.setScene(scene);
             stage.show();
 
         }

@@ -30,7 +30,10 @@
                   </AnchorPane>
                </children>
             </AnchorPane>
-            <Label prefHeight="17.0" prefWidth="499.0" />
+            <Label fx:id="errorReport" prefHeight="32.0" prefWidth="455.0" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
          </children>
       </VBox>
    </children>

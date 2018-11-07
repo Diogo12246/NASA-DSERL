@@ -42,7 +42,8 @@ public class DserlAPP extends Application {
 
         }
         catch (Exception e){
-            System.out.println("Ocorreu um erro");
+            System.out.println("Ocorreu um erro ");
+            e.printStackTrace();
         }
     }
 }
