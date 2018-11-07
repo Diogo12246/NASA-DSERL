@@ -12,9 +12,9 @@ public class Node {
         config(box, planetCatalogger);
     }
 
-    public static void config(AnchorPane box, AnchorPane conteudo) {
+    public static void config(AnchorPane box, AnchorPane content) {
         box.getChildren().clear();
-        box.getChildren().add(conteudo);
-        Resize.margin(conteudo, 0);
+        box.getChildren().add(content);
+       // Resize.margin(content, 0);
     }
 }

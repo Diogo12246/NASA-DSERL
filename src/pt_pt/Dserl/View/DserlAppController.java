@@ -2,15 +2,10 @@ package pt_pt.Dserl.View;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import pt_pt.Dserl.utility.Node;
-
-import java.io.IOException;
 
 public class DserlAppController {
 
