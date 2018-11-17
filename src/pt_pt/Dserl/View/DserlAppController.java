@@ -2,6 +2,7 @@ package pt_pt.Dserl.View;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Button;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.AnchorPane;
@@ -20,6 +21,7 @@ public class DserlAppController {
     @FXML private VBox vboxPlanets;
     @FXML private AnchorPane content;
     @FXML private Button exitBtn;
+    @FXML private Canvas modelo3d;
 
     public static DserlAppController getInstance() {
         return instance;

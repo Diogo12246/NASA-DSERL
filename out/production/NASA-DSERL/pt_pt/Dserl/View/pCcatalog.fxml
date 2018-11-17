@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
@@ -8,10 +11,11 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<fx:root type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root stylesheets="@../styles/pcatalog.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <HBox layoutX="28.0" layoutY="21.0" prefHeight="39.0" prefWidth="1179.0" styleClass="box-topo" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="21.0">
          <children>
@@ -24,6 +28,20 @@
         </HBox>
         <AnchorPane AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
          <children>
+            <VBox alignment="CENTER" layoutX="720.0" layoutY="22.0" prefHeight="472.0" prefWidth="432.0" spacing="40.0">
+               <children>
+                  <Pane prefHeight="367.0" prefWidth="432.0" styleClass="canvas">
+                     <children>
+                        <Canvas height="351.0" layoutX="9.0" layoutY="9.0" width="415.0" />
+                     </children>
+                  </Pane>
+                  <CheckBox mnemonicParsing="false" prefHeight="21.0" prefWidth="170.0" text="Confirm 3D model">
+                     <font>
+                        <Font name="Arial Nova" size="15.0" />
+                     </font>
+                  </CheckBox>
+               </children>
+            </VBox>
             <VBox layoutX="409.0" layoutY="18.0" prefHeight="262.0" prefWidth="362.0" spacing="10.0">
                <children>
                   <Label prefHeight="25.0" prefWidth="113.0" text="Planet Code">
@@ -46,6 +64,7 @@
                   <DatePicker fx:id="planetDiscoveryDate" prefHeight="27.0" prefWidth="199.0" />
                </children>
             </VBox>
+            <Button layoutX="845.0" layoutY="589.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="170.0" styleClass="catalogbtn" text="Catalogar" textFill="#545454" />
          </children>
         </AnchorPane>
       <VBox layoutX="71.0" layoutY="79.0" prefHeight="255.0" prefWidth="258.0" spacing="10.0">
@@ -70,7 +89,7 @@
             <Spinner fx:id="planetOrbit" prefHeight="27.0" prefWidth="220.0" />
          </children>
       </VBox>
-      <AnchorPane layoutY="358.0" prefHeight="60.0" prefWidth="1207.0">
+      <AnchorPane layoutY="358.0" prefHeight="404.0" prefWidth="616.0">
          <children>
             <HBox layoutX="68.0" prefHeight="404.0" prefWidth="545.0">
                <children>

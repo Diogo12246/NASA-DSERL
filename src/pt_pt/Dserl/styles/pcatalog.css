@@ -1,0 +1,19 @@
+.canvas{
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: rgba(51,153,255,0.2);
+}
+
+.catalogbtn {
+    -fx-text-fill: #fff;
+    -fx-background-color: #0065ff;
+    -fx-border-color: #0089a5;
+    -fx-border-insets: 0;
+    -fx-background-insets: 0;
+    -fx-border-radius: 0;
+    -fx-content-display: right;
+    -fx-cursor: hand;
+}

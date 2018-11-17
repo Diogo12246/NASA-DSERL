@@ -107,10 +107,8 @@
     -fx-font-family: 'Open Sans', sans-serif;
 }
 
-.submenus:hover,
-.submenus:selected{
+.submenus:hover{
     -fx-background-color: rgba(51,153,255,0.2);
-
 }
 
 .exit_btn {
