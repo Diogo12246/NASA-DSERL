@@ -15,6 +15,5 @@ public class Node {
     public static void config(AnchorPane box, AnchorPane content) {
         box.getChildren().clear();
         box.getChildren().add(content);
-       // Resize.margin(content, 0);
     }
 }
