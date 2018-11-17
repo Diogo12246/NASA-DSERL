@@ -83,13 +83,7 @@
     -fx-background-position: right center;
 }
 
-.menu-planet {
-    -fx-graphic: url("../resources/icons/planeticon.png");
-}
 
-.menu-planet:selected {
-    -fx-graphic: url("../resources/icons/planetsIcon.png");
-}
 
 .sidepanel_submenus {
     -fx-background-color: rgba(72, 155, 239, 0.5);
@@ -126,3 +120,41 @@
 .exit_btn:selected{
     -fx-background-color: #00d4ff;
 }
+
+
+
+.menu-planet {
+    -fx-graphic: url("../resources/icons/planeticon.png");
+}
+
+.menu-planet:selected {
+    -fx-graphic: url("../resources/icons/planetsIcon.png");
+}
+
+
+.menu-star {
+    -fx-graphic: url("../resources/icons/staricon.png");
+}
+
+.menu-star:selected {
+    -fx-graphic: url("../resources/icons/staricon.png");
+}
+
+.menu-ssytem {
+    -fx-graphic: url("../resources/icons/starsystemicon.png");
+}
+
+.menu-ssystem:selected {
+    -fx-graphic: url("../resources/icons/starsystemicon.png");
+}
+
+.menu-galaxy {
+    -fx-graphic: url("../resources/icons/galaxyicon.png");
+}
+
+.menu-galaxy:selected {
+    -fx-graphic: url("../resources/icons/galaxyicon.png");
+}
+
+
+

@@ -17,12 +17,22 @@
          <left>
             <AnchorPane prefHeight="800.0" prefWidth="275.0" styleClass="sidepanel" stylesheets="@../styles/app.css" BorderPane.alignment="CENTER">
                <children>
+                  <VBox prefHeight="108.0" prefWidth="277.0">
+                     <children>
+                        <ImageView fitHeight="79.0" fitWidth="277.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../Resources/sidepanelLogo.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="exitBtn" mnemonicParsing="false" onAction="#exitAPP" prefHeight="25.0" prefWidth="276.0" styleClass="exit_btn" stylesheets="@../styles/app.css" text="Exit Application      X" textFill="WHITE" />
+                     </children>
+                  </VBox>
                   <HBox prefHeight="108.0" prefWidth="276.0" />
                   <ScrollPane hbarPolicy="NEVER" layoutY="106.0" pannable="true" prefHeight="694.0" prefWidth="277.0" styleClass="scroll">
                      <content>
                         <VBox prefHeight="690.0" prefWidth="279.0">
                            <children>
-                              <VBox prefHeight="181.0" prefWidth="279.0">
+                              <VBox prefHeight="127.0" prefWidth="279.0">
                                  <children>
                                     <ToggleButton fx:id="btnPlanets" alignment="CENTER_LEFT" mnemonicParsing="false" prefHeight="38.0" prefWidth="275.0" stylesheets="@../styles/app.css" text="Planets">
                                        <styleClass>
@@ -39,19 +49,63 @@
                                     </VBox>
                                  </children>
                               </VBox>
+                              <VBox layoutX="10.0" layoutY="10.0" prefHeight="127.0" prefWidth="279.0">
+                                 <children>
+                                    <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" prefHeight="38.0" prefWidth="275.0" stylesheets="@../styles/app.css" text="Stars">
+                                       <styleClass>
+                                          <String fx:value="menus" />
+                                          <String fx:value="menu-grupo" />
+                                          <String fx:value="menu-star" />
+                                       </styleClass>
+                                    </ToggleButton>
+                                    <VBox fx:id="vboxPlanets1" prefHeight="91.0" prefWidth="279.0" styleClass="sidepanel_submenus" stylesheets="@../styles/app.css">
+                                       <children>
+                                          <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Catalog Star" />
+                                          <ToggleButton fx:id="btnPlanetList1" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Star List" />
+                                          <ToggleButton fx:id="btnVisualizePlanet1" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Visualize Star" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="137.0" prefHeight="127.0" prefWidth="279.0">
+                                 <children>
+                                    <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" prefHeight="38.0" prefWidth="275.0" stylesheets="@../styles/app.css" text="Star Systems">
+                                       <styleClass>
+                                          <String fx:value="menus" />
+                                          <String fx:value="menu-grupo" />
+                                          <String fx:value="menu-ssytem" />
+                                       </styleClass>
+                                    </ToggleButton>
+                                    <VBox fx:id="vboxPlanets11" prefHeight="91.0" prefWidth="279.0" styleClass="sidepanel_submenus" stylesheets="@../styles/app.css">
+                                       <children>
+                                          <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Catalog Star System" />
+                                          <ToggleButton fx:id="btnPlanetList11" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Star System List" />
+                                          <ToggleButton fx:id="btnVisualizePlanet11" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Visualize Star System" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="264.0" prefHeight="127.0" prefWidth="279.0">
+                                 <children>
+                                    <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" prefHeight="38.0" prefWidth="275.0" stylesheets="@../styles/app.css" text="Galaxies">
+                                       <styleClass>
+                                          <String fx:value="menus" />
+                                          <String fx:value="menu-grupo" />
+                                          <String fx:value="menu-galaxy" />
+                                       </styleClass>
+                                    </ToggleButton>
+                                    <VBox fx:id="vboxPlanets111" prefHeight="91.0" prefWidth="279.0" styleClass="sidepanel_submenus" stylesheets="@../styles/app.css">
+                                       <children>
+                                          <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Catalog Galaxy" />
+                                          <ToggleButton fx:id="btnPlanetList111" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Galaxy List" />
+                                          <ToggleButton fx:id="btnVisualizePlanet111" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Visualize Galaxy" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </VBox>
                            </children>
                         </VBox>
                      </content></ScrollPane>
-                  <VBox prefHeight="108.0" prefWidth="277.0">
-                     <children>
-                        <ImageView fitHeight="79.0" fitWidth="277.0" pickOnBounds="true">
-                           <image>
-                              <Image url="@../Resources/sidepanelLogo.jpg" />
-                           </image>
-                        </ImageView>
-                        <Button fx:id="exitBtn" mnemonicParsing="false" onAction="#exitAPP" prefHeight="25.0" prefWidth="276.0" styleClass="exit_btn" stylesheets="@../styles/app.css" text="Exit Application      X" textFill="WHITE" />
-                     </children>
-                  </VBox>
                </children>
             </AnchorPane>
          </left>
