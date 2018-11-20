@@ -3,6 +3,7 @@ package pt_pt.Dserl.application;
 
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
@@ -11,14 +12,14 @@ import javafx.stage.Stage;
 import javafx.application.Application;
 import javafx.stage.StageStyle;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
 
 public class DserlLogin extends Application {
 
     public static Stage stage;
     private Scene scene;
-    private AnchorPane page;
-
-
     private Screen ecra = Screen.getPrimary();
     private Rectangle2D window = ecra.getVisualBounds();
 
@@ -28,12 +29,11 @@ public class DserlLogin extends Application {
     }
 
     @Override
-    public void start(final Stage stage){
+    public void start(Stage stage){
         try {
             DserlLogin.stage = stage;
-            page = FXMLLoader.load(DserlLogin.class.getResource("../View/DserlLogin.fxml"));
-            scene = new Scene(page);
-
+            Parent root = FXMLLoader.load(getClass().getResource("../View/DserlLogin.fxml"));
+            scene = new Scene(root);
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setX(window.getMinX());
             stage.setY(window.getMinY());
@@ -45,7 +45,11 @@ public class DserlLogin extends Application {
 
         }
         catch (Exception e){
-            System.out.println("Ocorreu um erro na inicialização da aplicação. Por favor contacte o administrador. --Detalhes do erro-- " + e);
+            System.out.println("Ocorreu um erro na aplicação. Chame um administrador." + "\n" + " -- Detalhes do erro --" + "\n");
+            StringWriter sw = new StringWriter();
+            e.printStackTrace(new PrintWriter(sw));
+            String exceptionAsString = sw.toString();
+            System.out.println(exceptionAsString);
         }
     }
 

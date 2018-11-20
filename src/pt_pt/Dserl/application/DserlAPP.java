@@ -3,6 +3,7 @@ package pt_pt.Dserl.application;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
@@ -10,40 +11,43 @@ import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
 public class DserlAPP extends Application {
 
-    public static Stage palco;
-    private static Scene cena;
-    private static AnchorPane pagina;
-
+    public static Stage stage;
+    private Scene scene;
+    private AnchorPane page;
     private Screen ecra = Screen.getPrimary();
     private Rectangle2D window = ecra.getVisualBounds();
-
 
     public static void main(String[] args) {
         DserlLogin.launch(DserlAPP.class, (java.lang.String[]) null);
     }
 
     @Override
-    public void start(final Stage stage){
+    public void start(Stage stage){
         try {
-            palco = stage;
-            pagina = FXMLLoader.load(DserlLogin.class.getResource("../View/DserlAPP.fxml"));
-            cena = new Scene(pagina);
-
+            DserlAPP.stage= stage;
+            Parent root = FXMLLoader.load(getClass().getResource("../View/DserlAPP.fxml"));
+            scene = new Scene(root);
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setX(window.getMinX());
             stage.setY(window.getMinY());
             stage.setWidth(window.getWidth());
             stage.setHeight(window.getHeight());
             stage.getIcons().addAll(new Image(DserlLogin.class.getResourceAsStream("../Resources/nasaLOGO.png")));
-            stage.setScene(cena);
+            stage.setScene(scene);
             stage.show();
 
         }
         catch (Exception e){
-            System.out.println("Ocorreu um erro ");
-            e.printStackTrace();
+            System.out.println("Ocorreu um erro na aplicação. Chame um administrador." + "\n" + " -- Detalhes do erro --" + "\n");
+            StringWriter sw = new StringWriter();
+            e.printStackTrace(new PrintWriter(sw));
+            String exceptionAsString = sw.toString();
+            System.out.println(exceptionAsString);
         }
     }
 }
