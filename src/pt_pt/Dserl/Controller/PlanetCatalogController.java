@@ -16,6 +16,9 @@ public class PlanetCatalogController extends AnchorPane {
     @FXML private ComboBox planetType;
     @FXML private Spinner planetOrbit;
     @FXML private TextArea planetInfos;
+    @FXML private Button btnCatalogPlanet;
+    @FXML private Button btnUpload3dModel;
+    @FXML private CheckBox cbx3dConfirm;
 
 
     public PlanetCatalogController() {

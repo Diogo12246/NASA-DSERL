@@ -52,10 +52,9 @@ public class DserLoginController implements Initializable {
     public void connectionTest(){
 
         boolean connection = manager.testConnection("root","root");
-        if (connection == true){
-            errorReport.setText("Connection to the database was successful. You may Login.");
-        } else {
-            errorReport.setText("Connection to the database failed. Please contact an administrator.");
+        if (connection != true){
+            errorReport.setText("Connection to the database failed. Please contact an administrator");
         }
+        else errorReport.setText("Connection sucessful, you may login.");
     }
 }

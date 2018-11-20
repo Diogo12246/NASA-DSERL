@@ -8,7 +8,6 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt_pt.Dserl.View.DserlAppController">
@@ -27,7 +26,6 @@
                         <Button fx:id="exitBtn" mnemonicParsing="false" onAction="#exitAPP" prefHeight="25.0" prefWidth="276.0" styleClass="exit_btn" stylesheets="@../styles/app.css" text="Exit Application      X" textFill="WHITE" />
                      </children>
                   </VBox>
-                  <HBox prefHeight="108.0" prefWidth="276.0" />
                   <ScrollPane hbarPolicy="NEVER" layoutY="106.0" pannable="true" prefHeight="694.0" prefWidth="277.0" styleClass="scroll">
                      <content>
                         <VBox prefHeight="690.0" prefWidth="279.0">
@@ -96,7 +94,7 @@
                                     </ToggleButton>
                                     <VBox fx:id="vboxPlanets111" prefHeight="91.0" prefWidth="279.0" styleClass="sidepanel_submenus" stylesheets="@../styles/app.css">
                                        <children>
-                                          <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Catalog Galaxy" />
+                                          <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Catalog a Galaxy" />
                                           <ToggleButton fx:id="btnPlanetList111" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Galaxy List" />
                                           <ToggleButton fx:id="btnVisualizePlanet111" alignment="CENTER_LEFT" mnemonicParsing="false" prefWidth="150.0" styleClass="submenus" stylesheets="@../styles/app.css" text="Visualize Galaxy" />
                                        </children>
