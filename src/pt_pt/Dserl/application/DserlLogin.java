@@ -6,7 +6,6 @@ import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.application.Application;
@@ -32,7 +31,7 @@ public class DserlLogin extends Application {
     public void start(Stage stage){
         try {
             DserlLogin.stage = stage;
-            Parent root = FXMLLoader.load(getClass().getResource("../View/DserlLogin.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../View/appLogin/DserlLogin.fxml"));
             scene = new Scene(root);
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setX(window.getMinX());

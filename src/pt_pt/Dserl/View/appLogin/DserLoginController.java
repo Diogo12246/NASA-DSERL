@@ -1,4 +1,4 @@
-package pt_pt.Dserl.View;
+package pt_pt.Dserl.View.appLogin;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

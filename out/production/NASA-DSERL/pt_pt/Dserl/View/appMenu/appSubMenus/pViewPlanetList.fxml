@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root stylesheets="@../../../styles/pcatalog.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="729.0" prefWidth="1060.0" stylesheets="@../../../styles/pcatalog.css">
+         <children>
+            <TableView fx:id="tablePList" layoutX="18.0" layoutY="93.0" prefHeight="612.0" prefWidth="951.0">
+              <columns>
+                <TableColumn fx:id="pName" prefWidth="75.0" text="Name" />
+                <TableColumn prefWidth="75.0" text="Code" />
+                  <TableColumn prefWidth="75.0" text="Size (km2)" />
+                  <TableColumn prefWidth="126.0" text="Discovery Date" />
+                  <TableColumn minWidth="9.0" prefWidth="84.0" text="Type" />
+                  <TableColumn minWidth="1.0" prefWidth="88.0" text="Orbit (days)" />
+                  <TableColumn minWidth="2.0" prefWidth="131.0" text="Day Time (Hours)" />
+              </columns>
+            </TableView>
+            <Label layoutX="18.0" layoutY="37.0" prefHeight="32.0" prefWidth="229.0" text="Planet List">
+               <font>
+                  <Font name="Mass Effect Game 123" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</fx:root>

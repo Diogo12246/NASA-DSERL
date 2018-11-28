@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<fx:root stylesheets="@../styles/pcatalog.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root stylesheets="@../../../styles/pcatalog.css" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <HBox layoutX="28.0" layoutY="21.0" prefHeight="39.0" prefWidth="1179.0" styleClass="box-topo" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="21.0">
          <children>

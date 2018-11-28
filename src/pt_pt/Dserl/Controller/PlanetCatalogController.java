@@ -23,7 +23,7 @@ public class PlanetCatalogController extends AnchorPane {
 
     public PlanetCatalogController() {
         try {
-            FXMLLoader fxml = new FXMLLoader(getClass().getResource("../view/pCcatalog.fxml"));
+            FXMLLoader fxml = new FXMLLoader(getClass().getResource("../View/appMenu/appSubMenus/pCcatalog.fxml"));
             fxml.setRoot(this);
             fxml.setController(this);
             fxml.load();

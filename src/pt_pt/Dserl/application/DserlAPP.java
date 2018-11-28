@@ -30,7 +30,7 @@ public class DserlAPP extends Application {
     public void start(Stage stage){
         try {
             DserlAPP.stage= stage;
-            Parent root = FXMLLoader.load(getClass().getResource("../View/DserlAPP.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../View/appMenu/DserlAPP.fxml"));
             scene = new Scene(root);
             stage.initStyle(StageStyle.UNDECORATED);
             stage.setX(window.getMinX());

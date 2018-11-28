@@ -1,4 +1,4 @@
-package pt_pt.Dserl.View;
+package pt_pt.Dserl.View.appMenu;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -40,6 +40,11 @@ public class DserlAppController {
     @FXML
     void planetCatalog(ActionEvent event) {
         Node.getPlanetCatalogController(content);
+    }
+
+    @FXML
+    void planetList(ActionEvent event) {
+        Node.getPlanetListController(content);
     }
 
 }
