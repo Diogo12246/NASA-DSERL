@@ -26,7 +26,6 @@ public class PlanetCatalogController extends AnchorPane {
     @FXML private Button btnCatalogPlanet;
     @FXML private Button btnUpload3dModel;
     @FXML private CheckBox cbx3dConfirm;
-    @FXML private Button testvaluebtn;
 
     public PlanetCatalogController() {
         try {

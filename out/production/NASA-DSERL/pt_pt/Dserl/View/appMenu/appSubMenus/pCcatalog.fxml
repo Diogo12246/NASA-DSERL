@@ -82,7 +82,6 @@
                </font>
             </Label>
             <ComboBox fx:id="_planetType" prefHeight="25.0" prefWidth="260.0" />
-            <Button fx:id="testvaluebtn" mnemonicParsing="false" onAction="#getValueCB" text="TestValue" />
             <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="159.0" text="Planet Orbit Time">
                <font>
                   <Font name="HP Simplified" size="18.0" />
