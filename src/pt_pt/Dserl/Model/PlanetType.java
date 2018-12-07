@@ -20,6 +20,8 @@ public class PlanetType {
         return PlanetType;
     }
 
+
+    // For the combobox to have a name displayed we use the Override toString.
     @Override
     public String toString() {
         return getPlanetType();

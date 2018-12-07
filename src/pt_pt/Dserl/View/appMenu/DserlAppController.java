@@ -2,12 +2,14 @@ package pt_pt.Dserl.View.appMenu;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.Button;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import pt_pt.Dserl.Controller.PlanetCatalogController;
 import pt_pt.Dserl.utility.Node;
 
 public class DserlAppController {
@@ -40,6 +42,9 @@ public class DserlAppController {
     @FXML
     void planetCatalog(ActionEvent event) {
         Node.getPlanetCatalogController(content);
+
+        //XMLLoader = new FXMLLoader((DserlAppController.class).getResource("../"));
+
     }
 
     @FXML

@@ -12,9 +12,6 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import pt_pt.Dserl.utility.ExceptionHandler;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
-
 public class DserlAPP extends Application {
 
     public static Stage stage;

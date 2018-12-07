@@ -6,9 +6,30 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92aea28-0c77-48bf-a3e4-ae952c39443d" name="Default Changelist" comment="">
+    <list default="true" id="c92aea28-0c77-48bf-a3e4-ae952c39443d" name="Default Changelist" comment="Updated Project Structure.&#10;Implemented JUnit 5.2 to classpath&#10;with a simple &quot;Testing.java&quot; to the&#10;&quot;package Unit&quot;. &#10;&#10;Further development will implement more&#10;tests.&#10;&#10;//Notes:&#10;Still learning a lot and researching a lot,&#10;this project is being a lot of fun! &#10;&lt;3 JAVA.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Controller/DserlManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Controller/DserlManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Controller/PlanetCatalogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Controller/PlanetCatalogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Model/Planet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Model/Planet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Model/PlanetType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Model/PlanetType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/Model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/View/appLogin/DserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/View/appLogin/DserLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/View/appMenu/DserlAppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/View/appMenu/DserlAppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/View/appMenu/appSubMenus/pCcatalog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/View/appMenu/appSubMenus/pCcatalog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/application/DserlAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/application/DserlAPP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/application/DserlLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/application/DserlLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/utility/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NASA-DSERL/pt_pt/Dserl/utility/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/PlanetCatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/PlanetCatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/Model/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/Model/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/View/appLogin/DserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/View/appLogin/DserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/DserlAppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/DserlAppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/appSubMenus/pCcatalog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/appSubMenus/pCcatalog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlAPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pt_pt/Dserl/utility/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pt_pt/Dserl/utility/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,46 +160,49 @@
     <session id="1667768956">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
-          <entry key="fxml" value="2" />
-          <entry key="java" value="36" />
+          <entry key="class" value="9" />
+          <entry key="fxml" value="6" />
+          <entry key="java" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="36" />
-          <entry key="XML" value="2" />
+          <entry key="CLASS" value="9" />
+          <entry key="JAVA" value="59" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2677" />
+          <entry key="fxml" value="100" />
+          <entry key="java" value="5402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2677" />
+          <entry key="JAVA" value="5402" />
+          <entry key="XML" value="100" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Controller/PlanetCatalogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="387">
+              <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,86 +210,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Controller/pViewPListController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/utility/ExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlAPP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/utility/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="336">
+              <caret line="79" column="77" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -309,7 +258,6 @@
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlMain.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlLogin.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlAPPcontroller.java" />
-        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Model/User.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/styles/login.css" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/utility/Nodes.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/utility/Resize.java" />
@@ -325,12 +273,17 @@
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetList.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/pViewPListController.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/utility/Node.java" />
-        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetType.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/utility/ExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlLogin.java" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlAPP.java" />
-        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlManager.java" />
+        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Model/User.java" />
+        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Model/Planet.java" />
+        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetType.java" />
+        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/View/appLogin/DserLoginController.java" />
+        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/DserlAppController.java" />
+        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/appSubMenus/pCcatalog.fxml" />
         <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/PlanetCatalogController.java" />
+        <option value="$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlManager.java" />
       </list>
     </option>
   </component>
@@ -341,8 +294,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="933" />
+    <option name="width" value="994" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -351,7 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -431,6 +383,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Dserl" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="appLogin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NASA-DSERL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NASA-DSERL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Dserl" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
               <item name="appMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -446,13 +406,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544036554900" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544216139424" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -469,23 +430,24 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="pt_pt.Dserl.Controller" />
-      <recent name="pt_pt.Dserl.application" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\F0RCEFI3LD\Desktop\PROJECTOS\NASA-DSERL\src\pt_pt\Dserl\View" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pt_pt.Dserl.Controller" />
-      <recent name="pt_pt.Dserl.View" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\F0RCEFI3LD\Desktop\RUMOS\JAVA\Projecto NASA\NASA-DSERL\src\pt_pt\Dserl\View\appLogin" />
       <recent name="C:\Users\F0RCEFI3LD\Desktop\RUMOS\JAVA\Projecto NASA\NASA-DSERL\src\pt_pt\Dserl\View\appViews" />
       <recent name="C:\Users\F0RCEFI3LD\Desktop\RUMOS\JAVA\Projecto NASA\NASA-DSERL\src\pt_pt\Dserl\View\appControls" />
       <recent name="C:\Users\F0RCEFI3LD\Desktop\RUMOS\JAVA\Projecto NASA\NASA-DSERL\src\pt_pt\Dserl\View\APP" />
       <recent name="C:\Users\F0RCEFI3LD\Desktop\JAVA\Projecto NASA\NASA-DSERL\src\pt_pt\Dserl\application" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pt_pt.Dserl.Controller" />
+      <recent name="pt_pt.Dserl.View.appMenu.appSubMenus" />
+      <recent name="pt_pt.Dserl.application" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pt_pt.Dserl.Controller" />
+      <recent name="pt_pt.Dserl.View" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\F0RCEFI3LD\Desktop\PROJECTOS\NASA-DSERL\src\pt_pt\Dserl\View" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -665,7 +627,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -674,15 +636,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.26898047" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38611713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.27006507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38177875" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.27006507" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32858709" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -735,29 +697,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated Project Structure.&#10;Implemented JUnit 5.2 to classpath&#10;with a simple &quot;Testing.java&quot; to the&#10;&quot;package Unit&quot;. &#10;&#10;Further development will implement more&#10;tests.&#10;&#10;//Notes:&#10;Still learning a lot and researching a lot,&#10;this project is being a lot of fun! &#10;&lt;3 JAVA." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/property/DoublePropertyBase.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/property/SimpleDoubleProperty.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/property/ReadOnlyDoubleWrapper.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/stage/Stage.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/property/ReadOnlyDoubleProperty.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/binding/DoubleExpression.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/binding/NumberExpressionBase.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/Node.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/Button.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/Scene.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/event/Event.java" />
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Unit.java" />
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Unit/Testing.java" />
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/utility/Resize.java" />
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/appSubMenus/pCcatalog.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/styles/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -779,44 +726,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/DserlAPP.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117" />
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appLogin/DserlLogin.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Model/appTableViews.java" />
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetList.java" />
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appLogin/DserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/appSubMenus/pViewPlanetList.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Model/Planet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -845,11 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="533" selection-start-line="533" selection-end-line="533" />
-          <folding>
-            <element signature="e#5762#5763#0" expanded="true" />
-            <element signature="e#5794#5795#0" expanded="true" />
-            <element signature="e#19641#19642#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,11 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="204" selection-start-line="204" selection-end-line="204" />
-          <folding>
-            <element signature="e#7869#7870#0" expanded="true" />
-            <element signature="e#7912#7913#0" expanded="true" />
-            <element signature="e#8291#8292#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,52 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/NonRegisteringDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/ConnectionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1581" selection-start-line="1581" selection-end-line="1581" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/StatementImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="823" selection-start-line="823" selection-end-line="823" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/ResultSetImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="3759" selection-start-line="3759" selection-end-line="3759" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/DserlAppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
-          <folding>
-            <element signature="e#66921#66922#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,16 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/event/EventType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <element signature="e#4603#4604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/collections/FXCollections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -963,53 +817,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetType.java">
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Controller/pViewPListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/utility/ExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="126">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="41" />
+        <state relative-caret-position="501">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlAPP.java">
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/utility/ExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlManager.java">
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Model/Planet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
-          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+          <caret line="94" column="51" lean-forward="true" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Model/PlanetType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/value/ChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appLogin/DserlLogin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="323" lean-forward="true" selection-start-line="11" selection-start-column="323" selection-end-line="11" selection-end-column="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/DserlAPP.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1768" selection-start-line="1768" selection-end-line="1768" />
+          <folding>
+            <element signature="e#66921#66922#0" expanded="true" />
+            <element signature="e#66966#66967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/DserlAppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appLogin/DserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1018,28 +983,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/utility/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="170">
+          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Controller/pViewPListController.java">
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/View/appMenu/appSubMenus/pCcatalog.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="65" column="100" selection-start-line="65" selection-start-column="100" selection-end-line="65" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="e#4393#4394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#4787#4788#0" expanded="true" />
+            <element signature="e#4990#4991#0" expanded="true" />
+            <element signature="e#5030#5031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/event/EventType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#4603#4604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/application/DserlAPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/PreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/StatementImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/ConnectionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+          <folding>
+            <element signature="e#7946#7947#0" expanded="true" />
+            <element signature="e#8026#8027#0" expanded="true" />
+            <element signature="e#8470#8471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/NonRegisteringDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Controller/PlanetCatalogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="387">
+          <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt_pt/Dserl/Controller/DserlManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="79" column="77" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

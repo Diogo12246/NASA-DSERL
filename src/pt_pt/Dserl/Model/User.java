@@ -2,60 +2,51 @@ package pt_pt.Dserl.Model;
 
 public class User {
 
-    private int id;
-    private String name;
-    private String username;
-    private String password;
-    private String email;
-    private boolean state;
+    private int idUser;
+    private String userName;
+    private String userPassword;
+    private String userEmail;
+    private boolean userState;
     private int userType;
 
-    public int getId() {
-        return id;
+    public int getIdUser() {
+        return idUser;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdUser(int idUser) {
+        this.idUser = idUser;
     }
 
-    public String getName() {
-        return name;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserPassword() {
+        return userPassword;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
 
-    public String getPassword() {
-        return password;
+    public String getUserEmail() {
+        return userEmail;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
     }
 
-    public String getEmail() {
-        return email;
+    public boolean isUserState() {
+        return userState;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public boolean isState() {
-        return state;
-    }
-
-    public void setState(boolean state) {
-        this.state = state;
+    public void setUserState(boolean userState) {
+        this.userState = userState;
     }
 
     public int getUserType() {
@@ -66,13 +57,12 @@ public class User {
         this.userType = userType;
     }
 
-    public User(int id, String name, String username, String password, String email, boolean state, int userType) {
-        this.id = id;
-        this.name = name;
-        this.username = username;
-        this.password = password;
-        this.email = email;
-        this.state = state;
+    public User(int idUser, String userName, String userPassword, String userEmail, boolean userState, int userType) {
+        this.idUser = idUser;
+        this.userName = userName;
+        this.userPassword = userPassword;
+        this.userEmail = userEmail;
+        this.userState = userState;
         this.userType = userType;
     }
 }

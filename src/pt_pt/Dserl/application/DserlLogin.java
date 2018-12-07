@@ -1,6 +1,7 @@
 package pt_pt.Dserl.application;
 
 
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Parent;
@@ -8,12 +9,8 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
-import javafx.application.Application;
 import javafx.stage.StageStyle;
 import pt_pt.Dserl.utility.ExceptionHandler;
-
-import java.io.PrintWriter;
-import java.io.StringWriter;
 
 
 public class DserlLogin extends Application {

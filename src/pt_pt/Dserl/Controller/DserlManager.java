@@ -4,10 +4,6 @@ package pt_pt.Dserl.Controller;
 
 import pt_pt.Dserl.Model.PlanetType;
 import pt_pt.Dserl.utility.ExceptionHandler;
-
-import javax.xml.transform.Result;
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -40,8 +36,8 @@ public class DserlManager {
         return state;
     }
 
-    public Connection getConnection() {
-        return myConn;
+    public void verifyLogin(String username, String password){
+
     }
 
     public List planetarianTypes(){
@@ -65,6 +61,31 @@ public class DserlManager {
         return planetTypeList;
     }
 
+    public void catalogPlanet(String name,int code,double size,int discoveryDate,int planetType,double orbit,double dayTime,String description){
+        try
+        {
+            Connection myConn = DriverManager.getConnection(dbUrl,"root","root");
+            // the mysql insert statement
+            String query = " insert into planet (Name, Code, Size, DiscoveryDate, PlanetType, Orbit, Daytime, description_notes, planetmodel)"
+                    + " values (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            PreparedStatement preparedStmt = myConn.prepareStatement(query);
+            preparedStmt.setString (1, name);
+            preparedStmt.setInt    (2, code);
+            preparedStmt.setDouble (3, size);
+            preparedStmt.setInt    (4, discoveryDate);
+            preparedStmt.setInt    (5, planetType);
+            preparedStmt.setDouble (6, orbit);
+            preparedStmt.setDouble (7, dayTime);
+            preparedStmt.setString (8, description);
+            preparedStmt.setString (9, "3d_null_fornow_but_working_as_blob");
+            preparedStmt.execute();
 
+            myConn.close();
+        }
+        catch (Exception ex)
+        {
+            ExceptionHandler.ThrowEX(ex);
+        }
+    }
 }
 

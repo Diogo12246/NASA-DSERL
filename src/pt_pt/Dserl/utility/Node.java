@@ -2,6 +2,7 @@ package pt_pt.Dserl.utility;
 
 import javafx.scene.layout.AnchorPane;
 import pt_pt.Dserl.Controller.*;
+import pt_pt.Dserl.Controller.PlanetCatalogController;
 
 public class Node {
 

@@ -6,16 +6,14 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
+import pt_pt.Dserl.Controller.DserlManager;
 import pt_pt.Dserl.Model.User;
 import pt_pt.Dserl.application.DserlAPP;
 import pt_pt.Dserl.application.DserlLogin;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import pt_pt.Dserl.Controller.DserlManager;
 
 public class DserLoginController implements Initializable {
 
@@ -30,18 +28,9 @@ public class DserLoginController implements Initializable {
     }
 
     @FXML void Login(ActionEvent event) {
+        //
         new DserlAPP().start(new Stage());
         DserlLogin.stage.close();
-    }
-
-
-
-    private void LoginEnter(PasswordField password) {
-        password.setOnKeyReleased((KeyEvent key) -> {
-            if (key.getCode() == KeyCode.ENTER) {
-                Login(null);
-            }
-        });
     }
 
     @Override

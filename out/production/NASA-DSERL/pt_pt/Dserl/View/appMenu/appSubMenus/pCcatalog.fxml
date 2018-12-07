@@ -4,9 +4,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Spinner?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -43,26 +41,26 @@
                   </CheckBox>
                </children>
             </VBox>
-            <VBox layoutX="409.0" layoutY="18.0" prefHeight="262.0" prefWidth="362.0" spacing="10.0">
+            <VBox layoutX="409.0" layoutY="18.0" prefHeight="262.0" prefWidth="205.0" spacing="10.0">
                <children>
-                  <Label prefHeight="25.0" prefWidth="113.0" text="Planet Code">
+                  <Label prefHeight="25.0" prefWidth="158.0" text="Planet Code (xxxxx)">
                      <font>
                         <Font name="HP Simplified" size="18.0" />
                      </font>
                   </Label>
-                  <Spinner fx:id="planetCode" prefHeight="27.0" prefWidth="201.0" />
-                  <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="113.0" text="Planet Size">
+                  <TextField fx:id="planetCode" />
+                  <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="207.0" text="Planet Size (Diameter-KMs)">
                      <font>
                         <Font name="HP Simplified" size="18.0" />
                      </font>
                   </Label>
-                  <Spinner fx:id="planetSize" layoutX="10.0" layoutY="45.0" prefHeight="27.0" prefWidth="201.0" />
-                  <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="202.0" text="Planet Discovery Date">
+                  <TextField fx:id="planetSize" />
+                  <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="202.0" text="Planet Discovery Year">
                      <font>
                         <Font name="HP Simplified" size="18.0" />
                      </font>
                   </Label>
-                  <DatePicker fx:id="planetDiscoveryDate" prefHeight="27.0" prefWidth="199.0" />
+                  <TextField fx:id="planetDiscoveryDate" />
                </children>
             </VBox>
             <Button fx:id="btnCatalogPlanet" layoutX="864.0" layoutY="589.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="151.0" styleClass="catalogbtn" text="Catalogar" textFill="#545454" />
@@ -82,12 +80,12 @@
                </font>
             </Label>
             <ComboBox fx:id="_planetType" prefHeight="25.0" prefWidth="260.0" />
-            <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="159.0" text="Planet Orbit Time">
+            <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="196.0" text="Planet Orbit Time (Days)">
                <font>
                   <Font name="HP Simplified" size="18.0" />
                </font>
             </Label>
-            <Spinner fx:id="planetOrbit" prefHeight="27.0" prefWidth="261.0" />
+            <TextField fx:id="planetOrbit" />
          </children>
       </VBox>
       <AnchorPane layoutY="358.0" prefHeight="404.0" prefWidth="616.0">
