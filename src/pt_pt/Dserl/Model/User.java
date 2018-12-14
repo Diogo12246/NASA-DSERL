@@ -65,4 +65,9 @@ public class User {
         this.userState = userState;
         this.userType = userType;
     }
+
+    @Override
+    public String toString() {
+        return getUserName();
+    }
 }

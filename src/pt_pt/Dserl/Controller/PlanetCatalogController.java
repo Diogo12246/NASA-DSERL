@@ -97,7 +97,11 @@ public class PlanetCatalogController extends AnchorPane {
             if (getValueCB() < 0){
                 didCbox = false;
             }
-            else planetType = getValueCB();
+            else
+                {
+                    planetType = getValueCB();
+                    didCbox = true;
+                }
             validated = true;
             if (validated == true && pHasName == true && didCbox == true){
                 manager.catalogPlanet(name, code, size, discoveryDate, planetType, orbit, dayTime, description);
